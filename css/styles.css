@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: white;
+}
+.welkom{
+    color: lawngreen;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.indexMenu{
+    color: blue;
+}
