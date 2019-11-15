@@ -1,13 +1,32 @@
 body{
-    background-color: black;
-    color: white;
+    background-color: darkgray ;
+    color: black;
 }
-.welkom{
-    color: lawngreen;
+h1{
+    color: crimson;
     text-align: center;
     margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: black;
+    border: 10px solid black;
+    border-radius:25px ;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+}
+
+h2{
+    color: white;
+    font-size: 40px;
 }
 
 .indexMenu{
+    color: black;
+    font-family: "calibri", serif;
+}
+.indexMenuBolletjes{
     color: blue;
+}
+img{
+    border-radius: 100px;
 }
