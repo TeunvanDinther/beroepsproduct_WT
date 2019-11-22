@@ -17,11 +17,10 @@ h2{
 
 img{
     border-radius: 25px;
-    width: 20%;
+    width: 100%;
 }
 .smallimages{
-
-
+    width:20%;
 }
 
 a{
