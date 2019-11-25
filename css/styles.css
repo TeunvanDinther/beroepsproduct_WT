@@ -19,8 +19,11 @@ img{
     border-radius: 25px;
     width: 100%;
 }
-.smallimages{
-    width:20%;
+
+.flexsmallimages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 a{
@@ -90,6 +93,10 @@ header.menu a:first-child:hover{
 
     header.menu a{
         margin: 5px 0 5px 0;
+    }
+
+    .flexsmallimages{
+        flex-wrap: wrap;
     }
 
 }
