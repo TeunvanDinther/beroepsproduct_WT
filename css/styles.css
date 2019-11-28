@@ -7,7 +7,11 @@ main{
     padding-left: 10%;
     padding-right: 10%;
 }
-
+footer{
+    background-color: grey;
+    margin: 50px 0 0 0;
+    padding-left: 10%;
+}
 h1{
     color: crimson;
     text-align: center;
@@ -88,6 +92,17 @@ nav{
     background: white;
 }
 
+.index-image{
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.projectimage{
+    max-width: 500px;
+    border-radius: 20px;
+}
 @media only screen and (max-width: 600px){
     nav{
         flex-direction: column;
@@ -136,4 +151,14 @@ nav{
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.link{
+    text-decoration: none;
+    color: red;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: red;
 }
